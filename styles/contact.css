@@ -1,0 +1,40 @@
+/*Anpassung wegen index.css*/
+legend {
+    font-size: 1.2rem; 
+    font-weight: bold; 
+    color: white; 
+    margin-bottom: 2%; 
+}
+
+.submit-button {
+    background-color: rgb(136, 0, 0); 
+    color:white; /*Farbe bekommen wegen Firefox*/
+    border: 2px solid white; 
+}
+
+iframe {
+    width: 100%;
+    border: 0;
+    height: 400px;
+}
+
+address p, address {
+    font-style: normal; 
+    text-align: center; 
+}
+
+/*Überschribung wegen Textgrösse*/
+@media screen and (max-width: 600px) {
+    #logo {
+        padding-left: 25%; 
+    }
+
+    #mainNav {
+        margin-top: 20%; 
+    }
+
+    .sub-nav.responsive .icon {
+        top: 200px;
+    }
+    
+}

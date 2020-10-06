@@ -1,0 +1,24 @@
+/*Anpassung wegen index.css*/
+main {
+    margin-top: -5%; 
+}
+
+.sub-nav {
+    width: 180px; 
+}
+
+img {
+    padding-left: 29%; 
+}
+
+@media screen and (max-width: 1200px) {
+
+    header {
+        padding: 25px 100px;
+    }
+
+    img {
+        padding-left: 10%; 
+    }
+
+}

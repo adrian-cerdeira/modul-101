@@ -1,0 +1,28 @@
+/*Überschriebung wegen Textgröse*/
+.sub-nav a {
+    padding-left: 34%; 
+}
+
+/*Abstand zwischen Naviagtionen vergrössern*/
+@media screen and (max-width: 600px) {
+    #mainNav {
+        margin-top: 35%; 
+    }
+
+    .sub-nav.responsive .icon {
+        top: 310px;
+    }
+    
+    .sub-nav a {
+        padding-left: 0%; 
+    }
+
+    header {
+        padding: 25px 120px;
+    }
+
+    #logo {
+        padding-left: 25%; 
+    }
+    
+}
